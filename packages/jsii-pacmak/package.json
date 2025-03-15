@@ -1,7 +1,7 @@
 {
-  "name": "jsii-pacmak",
-  "version": "0.0.0",
-  "description": "A code generation framework for jsii backend languages",
+  "name": "@contract-case/jsii-pacmak",
+  "version": "0.0.1",
+  "description": "A test version of jsii-pacmak to see if addresses https://github.com/aws/jsii/issues/4793",
   "license": "Apache-2.0",
   "author": {
     "name": "Amazon Web Services",
@@ -37,14 +37,14 @@
     "package": "package-js"
   },
   "dependencies": {
-    "@jsii/check-node": "0.0.0",
-    "@jsii/spec": "^0.0.0",
+    "@jsii/check-node": "1.109.0",
+    "@jsii/spec": "^1.109.0",
     "clone": "^2.1.2",
-    "codemaker": "^0.0.0",
+    "codemaker": "^1.109.0",
     "commonmark": "^0.31.2",
     "escape-string-regexp": "^4.0.0",
     "fs-extra": "^10.1.0",
-    "jsii-reflect": "^0.0.0",
+    "jsii-reflect": "^1.109.0",
     "semver": "^7.7.1",
     "spdx-license-list": "^6.9.0",
     "xmlbuilder": "^15.1.1",

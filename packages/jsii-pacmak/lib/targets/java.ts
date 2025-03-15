@@ -27,7 +27,7 @@ import {
   TargetOptions,
 } from '../target';
 import { shell, Scratch, slugify, setExtend } from '../util';
-import { VERSION, VERSION_DESC } from '../version';
+import { VERSION_DESC } from '../version';
 import { stabilityPrefixFor, renderSummary } from './_utils';
 import { toMavenVersionRange, toReleaseVersion } from './version-utils';
 
@@ -1293,11 +1293,7 @@ class JavaGenerator extends Generator {
       dependencies.push({
         groupId: 'software.amazon.jsii',
         artifactId: 'jsii-runtime',
-        version:
-          VERSION === '0.0.0'
-            ? '[0.0.0-SNAPSHOT]'
-            : // eslint-disable-next-line @typescript-eslint/restrict-template-expressions
-              toMavenVersionRange(`^${VERSION}`),
+        version: '1.109.0',
       });
 
       // Provides @org.jetbrains.*
